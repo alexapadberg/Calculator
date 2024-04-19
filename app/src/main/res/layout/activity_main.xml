@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        tools:context=".MainActivity"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    <TextView
+        android:id="@+id/calcAnswerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_marginHorizontal= "@dimen/button_margin"
+        android:textSize= "@dimen/display_text_size"
+        android:textAlignment="textEnd"
+
+
+        />
+
+        <TableRow>
+            <Button
+                android:id="@+id/CButton"
+                android:text="@string/clearBtn"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/CEButton"
+                android:text="@string/clearEntryBtn"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/toggleButton"
+                android:text="+/-"
+                style = "@style/CalcButton.Port"
+
+                />
+            <Button
+                android:id="@+id/divideButton"
+                android:text="/"
+                style = "@style/CalcButton.Port"
+
+                />
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/num7Button"
+                android:text="7"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/num8Button"
+                android:text="8"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/num9Button"
+                android:text="9"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/addButton"
+                android:text="+"
+                style = "@style/CalcButton.Port"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/num4Button"
+                android:text="4"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/num5Button"
+                android:text="5"
+                style = "@style/CalcButton.Port"
+                />
+            <Button
+                android:id="@+id/num6Button"
+                android:text="6"
+                style = "@style/CalcButton.Port"
+                 />
+
+            <Button
+                android:id="@+id/subButton"
+                android:text="-"
+                style = "@style/CalcButton.Port"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/num1Button"
+                android:text="1"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/num2Button"
+                android:text="2"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/num3Button"
+                android:text="3"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/multButton"
+                android:text="*"
+                style = "@style/CalcButton.Port"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/num0Button"
+                android:text="0"
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/dotButton"
+                android:text="."
+                style = "@style/CalcButton.Port"
+                />
+
+            <Button
+                android:id="@+id/equalsButton"
+                android:text="="
+                style = "@style/CalcButton.Port"
+                android:layout_span="2"
+                />
+
+        </TableRow>
+
+    </TableLayout>
